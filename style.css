@@ -1,0 +1,39 @@
+.li-class{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, 400px);
+    justify-content: center;
+}
+
+
+
+
+
+.image-list {
+    list-style: none;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: auto;
+}
+
+
+
+
+
+.image-item .icons {
+    position: absolute;
+}
+
+.image-item img {
+    width: 400px;
+    height: 400px;
+    /* para a imagem não ficar esticada */
+    object-fit: cover;
+    margin-top: auto;
+}
+.imagem-item i {
+    color: #fff;
+    font-size: 26px;
+    
+}
